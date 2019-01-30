@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color:  rgba(51, 51, 51);
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin: 30px auto;
+}
+
+.scores {
+    max-width: 600px;
+    height: 100px;
+    margin: 20px auto;
+}
+
+.player-score, .computer-score {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.results {
+    max-width: 600px;
+    height: 200px;
+    margin: 20px auto;
+}
+
+.round-result, .game-result {
+    text-align: center;
+    margin: 10px auto;
+    max-width: 500px;
+}
+
+.round-result {
+    height: 40px;
+    font-size: 25px;
+}
+
+.game-result {
+    
+    font-size: 40px;
+    color: white;
+    margin-top: 80px;
+    height: 40px;
+}
+
+.buttons {
+    width: 400px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#rock, #paper, #scissors {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    background-color: rgba(51, 51, 51);
+    color: rgba(221, 221, 221);
+    text-decoration: none;
+    outline: none;
+    border-radius: 7px;
+    border: 2px solid rgb(82, 136, 243);
+}
+
+#reset {
+    display: block;
+    width: 80px;
+    height: 25px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: rgba(51, 51, 51);
+    color: rgba(221, 221, 221);
+    text-decoration: none;
+    outline: none;
+
+    border: 2px solid rgb(82, 136, 243);
+}
+
